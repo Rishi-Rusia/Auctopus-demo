@@ -1,0 +1,26 @@
+Report on Building a REACT Application that fetches data from given API
+
+Introduction
+For this project, I was tasked with building a REACT application that fetches data from the JSONPlaceholder API and displays it in a list. The application needed to allow the user to search for blog posts, sort the list of posts based on date or title, add a new blog post, and delete a blog post. To manage the state of the application, I used Redux, and I utilized the Redux-thunk middleware to handle asynchronous API requests.
+
+Implementation
+I started by creating a basic React application using Create React App. Then, I added Redux to the application and created actions, reducers, and selectors for fetching data from the API. I used the Redux-thunk middleware to handle asynchronous requests and updated the Redux store with the fetched data.
+
+Next, I created components to display the list of blog posts and implemented functionality to allow the user to search for blog posts based on the title or body of the post. To sort the list of posts, I added buttons to sort the posts based on date or title. I also implemented functionality to add a new blog post and delete a blog post from the list.
+
+To ensure that my code was well-organized and maintainable, I followed best practices and utilized ES6 syntax throughout the application. I also used modern web development technologies such as HTML5, CSS3, and responsive design to create a visually appealing and user-friendly interface.
+
+Testing
+To test the application, I used the Jest testing framework to create unit tests that covered all the features and edge cases. I tested the Redux store, actions, reducers, and selectors, as well as the components that displayed the list of blog posts and allowed the user to search, sort, add, and delete blog posts. I also made sure that the application was responsive and performant, even when handling large amounts of data.
+
+Challenges and Solutions
+One of the main challenges I faced during the development of this application was handling the asynchronous API requests. To overcome this challenge, I used the Redux-thunk middleware to handle the requests and updated the Redux store with the fetched data.
+
+Another challenge I faced was ensuring that the application was responsive and performant, even when handling large amounts of data. To address this challenge, I used React's virtual DOM to efficiently render the list of blog posts and implemented pagination to limit the number of posts displayed on a single page.
+
+Conclusion
+In conclusion, building this REACT application was an exciting project that allowed me to practice my skills in web development and software engineering. Through this project, I learned how to use Redux to manage the state of a REACT application and how to handle asynchronous API requests using Redux-thunk middleware. I also gained experience in creating unit tests using the Jest testing framework and ensuring that my application was responsive and performant. Overall, I am pleased with the outcome of this project and am excited to continue building and learning in the field of web development.
+
+
+
+
